@@ -1,32 +1,47 @@
-# Energy Consumption Forecasting Project
+# ⚡ Forecasting Energy Consumption
 
-## Overview
-This project aims to forecast hourly and daily energy consumption using historical data from the PJM Interconnection power grid. By leveraging time series analysis and machine learning techniques, the model predicts future energy usage patterns to assist in better energy management and planning.
+This project focuses on predicting future energy consumption using historical hourly electricity usage data. It explores patterns across seasons, hours, and weekdays to build a robust forecasting model that can help in energy demand planning.
 
-## Objective
-- Analyze historical hourly energy consumption data.
-- Capture trends, seasonality, and anomalies in the data.
-- Build a forecasting model to predict future energy consumption for the next 30 days.
-- Provide insights to optimize energy distribution and reduce costs.
+---
 
-## Dataset
-- PJM Interconnection hourly power consumption data (in megawatts).
-- Includes timestamped energy usage records over multiple years.
+## 🚀 Live Demo
 
-## Approach
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA) to identify patterns and seasonality
-- Feature engineering for time series components (e.g., hour of day, day of week, holidays)
-- Model building using time series forecasting methods (e.g., ARIMA, Prophet)
-- Model evaluation using metrics like RMSE and MAE
+🔗 [Streamlit App Link](https://forecasting-energy-consumption.streamlit.app/)  
+*Replace this link after deploying on Streamlit Cloud.*
 
-## Technologies Used
+---
+
+## 📊 Features
+
+- Time series forecasting for energy demand
+- Interactive visualizations for trends and insights
+- Daily, hourly, and seasonal energy usage analysis
+- Trained regression model for future predictions
+
+---
+
+## 🛠️ Tech Stack
+
 - Python
-- pandas, NumPy
-- statsmodels, fbprophet (or Prophet)
-- Matplotlib, Seaborn
-- Jupyter Notebook
+- Streamlit
+- Pandas, NumPy
+- Matplotlib, Seaborn, Plotly
+- Scikit-learn
+- Joblib / Pickle
 
-## Author
+---
+
+## 📂 Dataset
+
+- **Source**: PJM Interconnection (Hourly Energy Consumption Data)
+- **Format**: CSV
+- **Frequency**: Hourly
+- **Target**: Megawatts consumed
+
+---
+
+## 👩‍💻 Author
+
 **Krutika Shellgi**  
-[GitHub](https://github.com/krutika-18) | [LinkedIn](https://www.linkedin.com/in/kritika-shellagi/)
+- GitHub: [@krutika-18](https://github.com/krutika-18)  
+- LinkedIn: [Krutika Shellgi](https://www.linkedin.com/in/kritika-shellagi/)
